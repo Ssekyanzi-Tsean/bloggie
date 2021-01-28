@@ -8,10 +8,10 @@
     -webkit-font-smoothing: antialiased;
 }
 :root {
-    --primary: #933ded;
-    --dark: #232323;
+    --primary: #ffffff;
+    --dark: #5e595f;
     --pure: #fff;
-    --smoke: whitesmoke;
+    --smoke: #cca27c;
     --dark-gray: #999;
 }
 
@@ -134,4 +134,10 @@ body {
     padding: 30px;
     font-size: 40px;
     text-align: center;
+  }
+
+  #content img {
+    float: left;
+    text-align: right;
+    margin-left: 7em;
   }
